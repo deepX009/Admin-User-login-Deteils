@@ -1,0 +1,156 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #d1f4ff;
+  }
+
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #d47c17;
+  border: 1px solid #695f97;
+  color: #380205;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.login-form {
+  background-color: rgb(236, 204, 204);
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 3, 3, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.App {
+  text-align: center;
+ 
+}
+
+label {
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+
+.input {
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.count{
+  background-color: bisque;
+  text-align: center;
+  padding: 3px;
+}
+.form{
+  background-image: url(https://plus.unsplash.com/premium_photo-1685214580428-7eae1a78e7bc?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW58ZW58MHx8MHx8fDA%3D);
+  border-radius: 5px;
+  height: 600px;
+ 
+  padding: 50px;
+  
+}
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+  padding: 5px;
+}
+.user{
+  text-align: center;
+  background-color: #e2e2e2;
+  border: #756f6f;
+  border-style:groove;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 2px;
+  
+}
+.table{
+  width:"95%";
+  text-align: center;
+  background-color: rgb(44, 44, 44);
+  border: 2px solid rgb(112, 111, 111);
+  border-radius: 5px;
+  table-layout: auto;
+ 
+  
+}
